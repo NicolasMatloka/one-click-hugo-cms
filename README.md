@@ -1,46 +1,46 @@
-# Hugo template for Netlify CMS with Netlify Identity
+## Biztrox - Business theme (Premium)
+[![Biztrox hugo theme](https://user-images.githubusercontent.com/5304905/48638129-e8ffb200-e9f9-11e8-99a7-b081e27a1941.png)](https://themefisher.com/products/biztrox-hugo-template/)
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
+[Live Preview](http://demo.themefisher.com/themefisher/biztrox-hugo/)
 
-## Getting started
+[Download Now](https://themefisher.com/products/biztrox-hugo-template/)
 
-Use our deploy button to get your own copy of the repository. 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+# _Meghna_ for Hugo
+![screenshot](https://user-images.githubusercontent.com/37659754/45415821-501e8480-b6a0-11e8-89a8-5c2248b35d5e.png "Home of the website")
 
-This will setup everything needed for running the CMS:
+Meghna is a free responsive one page business template built with HTML5/CSS3, JavaScript and JQuery. The HTML template is minimalist, lightweight and fast loading, has been shipped wrapping latest technologies and awesome design trend. Mehna has successfully passed W3C validation and speed test. The bootstrap based HTML crafted with eye-catching design(UI) and ideal for well-researched user experience (UX), perfectly suited for Business, agency, startup, corporate, portfolio, showcasing, photography studio, SME business, non-profit organizations, fashion government agencies. and many more.
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+## Usage
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
-
-Now you're all set, and you can start editing content!
-
-## Local Development
-
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
-
-Then start the development server with `yarn start` or `npm start`.
-
-## Layouts
-
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
-
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
-
-## CSS
-
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
-
-## SVG
-
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+Create a new Hugo site by typing
 
 ```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
+  $ hugo new site <SITENAME>
 ```
+
+Then clone this repository:
+
+```
+  $ cd <SITENAME>/themes
+  $ git clone https://github.com/themefisher/meghna-hugo
+```
+
+Now take a look at the exampleSite folder and you're ready to go!
+
+## License
+
+This Template is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
+If you want to remove the credit simply make a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4), so that we can run our contribution to hugo community.
+
+[![HELP US TO GROW](https://user-images.githubusercontent.com/16266381/45262626-1e0ce880-b43c-11e8-9698-1b95f143e240.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4)
+
+## About Themefisher
+
+[Themefisher] has been creating beautiful free and premium Bootstrap and HTML5 templates since 2014.
+Visit us at https://themefisher.com/ to see other great-looking themes.
+
+[Hugo]: https://gohugo.io/
+[Themefisher]: https://themefisher.com/
+
+## We are available for Hiring of your next HUGO project. Drop Us a mail [themefisher@gmail.com](mailto:themefisher@gmail.com)
